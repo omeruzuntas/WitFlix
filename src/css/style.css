@@ -1,0 +1,112 @@
+*{
+    border: 1px solid #c2c2c2;
+   }
+   
+   body {
+       font-family: "Roboto Condensed", serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+   }
+   
+   header,main,section,footer{
+       padding: 1rem;
+   }
+   #wrap{
+       max-width: 1000px;
+       margin: 0 auto;
+       margin-top: 1rem;
+       display: flex;
+       flex-direction: column;
+       row-gap: 2rem;
+   }
+   .flex{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   
+   header{
+       padding: 1rem;
+   }   
+   header.logo{
+       height: 30px;
+   }
+   header nav{
+       gap: 1rem;
+   }
+   header nav a{
+       text-decoration: none;
+       color: rgb(9, 12, 15);
+   }
+   header .right {
+       gap: 1rem;
+   }
+   header .right .search  {
+       position: relative;
+   }
+   header .right .search i{
+       position: absolute;
+       right: 8px;
+       top: 50%;
+       transform: translateY(-50%);
+       cursor: pointer;
+   }
+   header .right .profile  {
+       gap: 1rem;
+   }
+   main {
+       background-image: url("/src/images/matrix1.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       color: #fff;
+       padding: 3rem;
+   }
+   .hero-content{
+       display: flex;
+       flex-direction: column;
+       row-gap: 1rem;
+   
+   }
+   .btn{
+       background-color: red;
+       color: white;
+       padding: 5px 10px;
+       font-size: 1rem;
+       border: none;
+       border-radius: 5px;
+       vertical-align: middle;
+       text-align: center;
+       cursor: pointer;
+       display: inline-block;
+   }
+   .suggestion-row{
+       display: flex;
+       flex-direction: column;
+       row-gap: 1rem;
+   
+   }
+   .suggestion-row .s-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+   .suggestion-row h2{
+    font-size: 1rem;
+
+}
+.suggestion-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.suggestion-content .item{
+    display: flex;
+ flex-direction: column;
+ row-gap: 1rem;
+ border: 2px solid white;
+ padding: 2rem 3rem 2rem 1rem;
+ width: 55%;
+ background-color: dimgrey;
+}
