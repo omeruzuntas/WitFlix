@@ -11,9 +11,11 @@
 <body>
     <div id="wrap">
         <header class="flex">
-            <img src="./src/images/witflix-logo.png" alt="WitFlix Logo" class="logo">
+            <div class="logo-container">
+                <img src="./src/images/witflix-logo.png" alt="WitFlix Logo" class="logo">
+            </div>
             <nav class="flex">
-                <a href="#">En İyiler </a>
+                <a href="#">En İyiler</a>
                 <a href="#">Türler</a>
                 <a href="#">İletişim</a>
                 <a href="#">Giriş</a>
@@ -24,7 +26,7 @@
                     <i class="fa-solid fa-search search-icon"></i>
                 </div>
                 <div class="profile-container">
-                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-bell notification-icon"></i>
                     <img src="./src/images/profile1.jpg" alt="Profile" class="profile-img">
                 </div>
             </div>
@@ -32,6 +34,7 @@
 
         <main>
             <div class="hero-content" style="background-image: url('./src/images/matrix1.jpg');">
+                <div class="overlay"></div>
                 <h1>The Matrix</h1>
                 <div class="movie-info">
                     <span class="user-rating">
@@ -45,15 +48,11 @@
                     <span class="maturity-rating">18+</span>
                     <span class="duration">2h 16m</span>
                 </div>
-                <p>Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.</p>
+                <p>Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government...</p>
                 <ul class="movie-details">
-                    <li><strong>Starring:</strong> Keanu Reeves
-                        Laurence Fishburne
-                        Carrie-Anne Moss
-                        Hugo Weaving
-                        Joe Pantoliano</li>
-                    <li><strong>Genre:</strong> Action Epic ,  Artificial Intelligence , Science Fiction</li>
-                    <li><strong>Tags:</strong> Dystopian Sci-Fi , Martial Arts , Gun Fu , Cyberpunk</li>
+                    <li><strong>Starring:</strong> Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</li>
+                    <li><strong>Genre:</strong> Action, Sci-Fi, Artificial Intelligence</li>
+                    <li><strong>Tags:</strong> Dystopian Sci-Fi, Martial Arts, Cyberpunk</li>
                 </ul>
                 <button class="btn play-now">
                     <i class="fas fa-play"></i> Play Now
@@ -88,7 +87,6 @@
             </div>
         </section>
 
-        <!-- Recommended Videos Section -->
         <section class="suggestion-row">
             <div class="s-header">
                 <h2>Recommended Videos</h2>
@@ -114,21 +112,22 @@
                     <button class="btn">Play Now</button>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <p>© 2025 WitFlix. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#">Terms of Use</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">FAQ</a>
-            </div>
-            <div class="social-media">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-            </div>
-        </footer>
-    </div>
+    <footer>
+        <p>© 2025 WitFlix. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
